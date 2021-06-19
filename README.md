@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![ELK_Net_Diagram](../Diagrams/ELK_Net_Diagram.png)
+![ELK_Net_Diagram](Diagrams/ELK_Net_Diagram.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat. Below is an example of the filebeat_playbook.yml used to install filebeat.
 
@@ -72,7 +72,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `sudo docker ps` after successfully configuring the ELK instance and the playbook needed to install the ELK machine:
 
-![ELK_Server_Docker_PS](../Ansible/Images/ELK-Server-Docker-PS.png)
+![ELK_Server_Docker_PS](Ansible/Images/ELK-Server-Docker-PS.png)
 
 ![elk_server](../Ansible/elk_server.yml)
 
